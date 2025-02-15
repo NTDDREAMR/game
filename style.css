@@ -13,12 +13,26 @@ html, body {
     background-color: #fff;
     font-family: 'Poppins', sans-serif;
 }
-
+#img_1{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#img_1 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: inherit;
+}
 #view {
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
 }
 
 #mazeContainer {
+    background-color: rgb(243, 243, 243);
     top: 15px;
     opacity: 0;
     display: inline-block;
@@ -29,7 +43,7 @@ html, body {
     margin: 0;
     display: block;
     border: solid 2px black;
-    height: 400px;
+    height: 520px;
 }
 input, select {
     cursor: pointer;
@@ -93,6 +107,7 @@ input:focus, select:focus {
 	height: auto;
 	width: auto;
 	margin: auto;
+    z-index: 1;
 }
 #page #menu {
     margin: auto;
@@ -123,7 +138,11 @@ input:focus, select:focus {
 #instructions {
     margin-top: 425px;
 }
- 
+.box_btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
 	input, select {
