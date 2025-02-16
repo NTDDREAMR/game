@@ -148,4 +148,16 @@ input:focus, select:focus {
 	input, select {
 	    width: 120px;
 	}
+    #mazeContainer #mazeCanvas {
+        margin: 0;
+        display: block;
+        border: solid 2px black;
+        height: 100%;
+        width: 100%;
+       
+    }
+    #mazeContainer{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
