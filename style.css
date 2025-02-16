@@ -144,7 +144,7 @@ input:focus, select:focus {
     gap: 10px;
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 	input, select {
 	    width: 120px;
 	}
