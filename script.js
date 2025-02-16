@@ -33,7 +33,7 @@ function changeBrightness(factor, sprite) {
 }
 
 function displayVictoryMess(moves) {
-  document.getElementById("moves").innerHTML = "Em có remember anh không ?";
+  document.getElementById("moves").innerHTML = "Em có remember anh hông ?";
   toggleVisablity("Message-Container");
 }
 
